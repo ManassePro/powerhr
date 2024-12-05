@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body{
+            font-family: 'Poppins';
+            font-size: 11pt;
+        }
+        .headbox{
+            background-color: #00a9e7;
+            color: #fff;
+        }
+        .footerbox{
+            background-color: #00a9e7;
+            color: #fff;
+        }
+        .p-l{
+            padding-right: 10px;
+        }
+        .carousel-inner {
+            height: 80vh; /* 50% de la hauteur de l'écran */
+        }
+
+        .slide-bg {
+            height: 100%; /* Remplit toute la hauteur du conteneur */
+            background-size: cover; /* Les images remplissent l'espace sans déformation */
+            background-position: center; /* Centrage des images */
+            background-repeat: no-repeat; /* Évite les répétitions */
+        }
+
+        .carousel-caption {
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .box {
+            height: 100%; /* Remplit toute la hauteur du conteneur */
+            background: linear-gradient(to right, rgb(0, 12, 15, 0.7) 20%, rgba(0, 46, 58, 0) 100%);
+        }
+        .entete{
+            max-width: 500px;
+            font-size: 40pt;
+        }
+        .btno{
+            max-width: 200px;
+        }
+        .bubble{
+            height: 60px;
+            width: 60px;
+            border-radius: 100%;
+        }
+        .lime{
+            max-width: 400px;
+        }
+
+        .icon-box {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            transition: all 0.3s ease-in-out;
+        }
+
